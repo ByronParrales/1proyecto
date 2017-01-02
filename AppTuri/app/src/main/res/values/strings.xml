@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppTuri</string>
+
+    <string-array name="names_array">
+       <item>El Murciélago</item>
+        <item>Santa Marianita</item>
+        <item>San Mateo</item>
+        <item>Liguigui</item>
+        <item>Playita Mía</item>
+    </string-array>
+</resources>

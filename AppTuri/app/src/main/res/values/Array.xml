@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="SeleccionarPaís">
+        <item>ECUADOR</item>
+        <item>ARGENTINA</item>
+        <item>BRASIL</item>
+        <item>VENEZUELA</item>
+        <item>CHILE</item>
+        <item>PERU</item>
+        <item>COLOMBIA</item>
+    </string-array>
+
+    <string-array name="SeleccionarCiudad">
+        <item>MANTA</item>
+        <item>MONECRISTI</item>
+        <item>GUAYAQUIL</item>
+        <item>QUITO</item>
+        <item>MACHALA</item>
+        <item>PORTOVIEJO</item>
+        <item>CHONE</item>
+    </string-array>
+</resources>

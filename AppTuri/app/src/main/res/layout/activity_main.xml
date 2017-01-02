@@ -1,0 +1,76 @@
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tvIniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sesión"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="#01F454"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        />
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Nombre"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/etContraseña"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sesión"
+        android:layout_gravity="center_horizontal"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar Datos"
+        android:layout_gravity="center"
+        android:id="@+id/cbdata"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:id="@+id/btnRegistrar"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btnFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/facebook"
+        android:drawablePadding="8dp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <Button
+        android:id="@+id/btnGmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/gmail"
+        android:drawablePadding="8dp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
